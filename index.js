@@ -19,9 +19,9 @@ const app = express();
 app.use(express.json());
 
 const courses = [
-    { id: 1, name:"gul"},
-    { id: 2, name:"gulnar"},
-    { id: 3, name:"gulus"},
+    { id: 1, name:"user1"},
+    { id: 2, name:"user2"},
+    { id: 3, name:"user3"},
 ];
 app.get('/',(req,res)=> {
     res.send('hello test');
